@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shortest Path BC </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="spec/lib/svg.js"></script>
+    <script type="text/javascript" src="svg.path.js"></script>
+</head>
+<body>
+<div class="slideshow-container" id="slideShow">
+   <div>
+       <svg id="path" style="position: absolute; top: 0;z-index:10;"></svg>
+       <svg id="circle" style="position: absolute; top: 0; z-index: 11;"></svg>
+       <svg id="xFinish" style="position: absolute; top: 0; z-index:11;"></svg>
+   </div>
+    <div class="fade">
+        <img src="svg/startLogo.svg" style="width:1217px; height: 410px;" id="myImg" alt="">
+    </div>
+    <a class="prev" id="prev" onclick="showPath(-1)">SPÄŤ</a>
+    <a class="next" id="next" onclick="showPath(1)">ĎALEJ</a>
+</div>
+<div class="textArea">
+    <div class="text" id="caption"></div>
+    <div class="text" id="captionII"></div>
+</div>
+<div class="inputs">
+    <div>
+        <label for="mySource"></label>
+        <input id="mySource" name="mySource" value="" placeholder="začiatok cesty"></div>
+    <div>
+        <label for="myTarget"></label>
+        <input id="myTarget" name="myTarget" value="" placeholder="cieľ cesty">
+    </div>
+    <button type="submit" class="btn" id="submit" onclick = getPath()>VYHĽADAŤ TRASU</button>
+</div>
+
+<script src="jquery.js"></script>
+<script src="functions/getPath.js"></script>
+<script src="functions/searchEngine.js"></script>
+<script src="functions/prepareCanvas.js"></script>
+<script src="functions/parseCoordinates.js"></script>
+<script src="functions/slideShow.js"></script>
+</body>
+</html>

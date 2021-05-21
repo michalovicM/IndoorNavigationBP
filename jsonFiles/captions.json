@@ -1,0 +1,309 @@
+{
+  "caption":
+  [
+    {
+      "ID": "0",
+      "caption": "Nachádzate sa na prízemii bloku A"
+    },
+    {
+      "ID": "1",
+      "caption": "Nachádzate sa na prízemii bloku B"
+    },
+    {
+      "ID": "2",
+      "caption": "Nachádzate sa na prízemii bloku C"
+    },
+    {
+      "ID": "3",
+      "caption": "Nachádzate sa na prízemii bloku D"
+    },
+    {
+      "ID": "4",
+      "caption": "Nachádzate sa na prízemii bloku E"
+    },
+    {
+      "ID": "5",
+      "caption": "Nachádzate sa na prízemii bloku E"
+    },
+    {
+      "ID": "6",
+      "caption": "Nachádzate sa na prízemii bloku B"
+    },
+    {
+      "ID": "7",
+      "caption": "Nachádzate sa na prízemii bloku C"
+    },
+    {
+      "ID": "8",
+      "caption": "Nachádzate sa na prvom poschodí bloku C"
+    },
+    {
+      "ID": "9",
+      "caption": "Nachádzate sa na -1 poschodii bloku E"
+    },
+    {
+      "ID": "10",
+      "caption": "Nachádzate sa na -2 poschodii bloku E"
+    },
+    {
+      "ID": "11",
+      "caption": "Nachádzate sa na 1. poschodii bloku E"
+    },
+    {
+      "ID": "12",
+      "caption": "Nachádzate sa na 1. poschodii bloku E"
+    },
+    {
+      "ID": "13",
+      "caption": "Nachádzate sa na 2. poschodii bloku E"
+    },
+    {
+      "ID": "14",
+      "caption": "Nachádzate sa na 2. poschodii bloku E"
+    },
+    {
+      "ID": "15",
+      "caption": "Nachádzate sa na 3. poschodii bloku E"
+    },
+    {
+      "ID": "16",
+      "caption": "Nachádzate sa na 3. poschodii bloku E"
+    },
+    {
+      "ID": "17",
+      "caption": "Nachádzate sa na 4. poschodii bloku E"
+    },
+    {
+      "ID": "18",
+      "caption": "Nachádzate sa na 4. poschodii bloku E"
+    },
+    {
+      "ID": "19",
+      "caption": "Nachádzate sa na 5. poschodii bloku E"
+    },
+    {
+      "ID": "20",
+      "caption": "Nachádzate sa na 5. poschodii bloku E"
+    },
+    {
+      "ID": "21",
+      "caption": "Nachádzate sa na 6. poschodii bloku E"
+    },
+    {
+      "ID": "22",
+      "caption": "Nachádzate sa na 6. poschodii bloku E"
+    },
+    {
+      "ID": "23",
+      "caption": "Nachádzate sa na 7. poschodii bloku E"
+    },
+    {
+      "ID": "24",
+      "caption": "Nachádzate sa na 1. poschodii bloku D"
+    },
+    {
+      "ID": "25",
+      "caption": "Nachádzate sa na 1. poschodii bloku D"
+    },
+    {
+      "ID": "26",
+      "caption": "Nachádzate sa na 2. poschodii bloku D"
+    },
+    {
+      "ID": "27",
+      "caption": "Nachádzate sa na 3. poschodii bloku D"
+    },
+    {
+      "ID": "28",
+      "caption": "Nachádzate sa na 3. poschodii bloku D"
+    },
+    {
+      "ID": "29",
+      "caption": "Nachádzate sa na 4. poschodii bloku D"
+    },
+    {
+      "ID": "30",
+      "caption": "Nachádzate sa na 4. poschodii bloku D"
+    },
+    {
+      "ID": "31",
+      "caption": "Nachádzate sa na 5. poschodii bloku D"
+    },
+    {
+      "ID": "32",
+      "caption": "Nachádzate sa na 5. poschodii bloku D"
+    },
+    {
+      "ID": "33",
+      "caption": "Nachádzate sa na 6. poschodii bloku D"
+    },
+    {
+      "ID": "34",
+      "caption": "Nachádzate sa na 6. poschodii bloku D"
+    },
+    {
+      "ID": "35",
+      "caption": "Nachádzate sa na 7. poschodii bloku D"
+    },
+    {
+      "ID": "36",
+      "caption": "Nachádzate sa na 1. poschodii bloku C"
+    },
+    {
+      "ID": "37",
+      "caption": "Nachádzate sa na 1. poschodii bloku C"
+    },
+    {
+      "ID": "38",
+      "caption": "Nachádzate sa na 2. poschodii bloku C"
+    },
+    {
+      "ID": "39",
+      "caption": "Nachádzate sa na 2. poschodii bloku C"
+    },
+    {
+      "ID": "40",
+      "caption": "Nachádzate sa na 3. poschodii bloku C"
+    },
+    {
+      "ID": "41",
+      "caption": "Nachádzate sa na 3. poschodii bloku C"
+    },
+    {
+      "ID": "42",
+      "caption": "Nachádzate sa na 4. poschodii bloku C"
+    },
+    {
+      "ID": "43",
+      "caption": "Nachádzate sa na 4. poschodii bloku C"
+    },
+    {
+      "ID": "44",
+      "caption": "Nachádzate sa na 5. poschodii bloku C"
+    },
+    {
+      "ID": "45",
+      "caption": "Nachádzate sa na 5. poschodii bloku C"
+    },
+    {
+      "ID": "46",
+      "caption": "Nachádzate sa na 6. poschodii bloku C"
+    },
+    {
+      "ID": "47",
+      "caption": "Nachádzate sa na 6. poschodii bloku C"
+    },
+    {
+      "ID": "48",
+      "caption": "Nachádzate sa na 7. poschodii bloku C"
+    },
+    {
+      "ID": "49",
+      "caption": "Nachádzate sa na 8. poschodii bloku C"
+    },
+    {
+      "ID": "50",
+      "caption": "Nachádzate sa na 1. poschodii bloku B"
+    },
+    {
+      "ID": "51",
+      "caption": "Nachádzate sa na 1. poschodii bloku B"
+    },
+    {
+      "ID": "52",
+      "caption": "Nachádzate sa na 2. poschodii bloku B"
+    },
+    {
+      "ID": "53",
+      "caption": "Nachádzate sa na 2. poschodii bloku B"
+    },
+    {
+      "ID": "54",
+      "caption": "Nachádzate sa na 3. poschodii bloku B"
+    },
+    {
+      "ID": "55",
+      "caption": "Nachádzate sa na 3. poschodii bloku B"
+    },
+    {
+      "ID": "56",
+      "caption": "Nachádzate sa na 4. poschodii bloku B"
+    },
+    {
+      "ID": "57",
+      "caption": "Nachádzate sa na 4. poschodii bloku B"
+    },
+    {
+      "ID": "58",
+      "caption": "Nachádzate sa na 5. poschodii bloku B"
+    },
+    {
+      "ID": "59",
+      "caption": "Nachádzate sa na 5. poschodii bloku B"
+    },
+    {
+      "ID": "60",
+      "caption": "Nachádzate sa na 6. poschodii bloku B"
+    },
+    {
+      "ID": "61",
+      "caption": "Nachádzate sa na 6. poschodii bloku B"
+    },
+    {
+      "ID": "62",
+      "caption": "Nachádzate sa na 7. poschodii bloku B"
+    },
+    {
+      "ID": "63",
+      "caption": "Nachádzate sa na 1. poschodii bloku A"
+    },
+    {
+      "ID": "64",
+      "caption": "Nachádzate sa na 2. poschodii bloku A"
+    },
+    {
+      "ID": "65",
+      "caption": "Nachádzate sa na 2. poschodii bloku A"
+    },
+    {
+      "ID": "66",
+      "caption": "Nachádzate sa na 3. poschodii bloku A"
+    },
+    {
+      "ID": "67",
+      "caption": "Nachádzate sa na 3. poschodii bloku A"
+    },
+    {
+      "ID": "68",
+      "caption": "Nachádzate sa na 4. poschodii bloku A"
+    },
+    {
+      "ID": "69",
+      "caption": "Nachádzate sa na 4. poschodii bloku A"
+    },
+    {
+      "ID": "70",
+      "caption": "Nachádzate sa na 5. poschodii bloku A"
+    },
+    {
+      "ID": "71",
+      "caption": "Nachádzate sa na 5. poschodii bloku A"
+    },
+    {
+      "ID": "72",
+      "caption": "Nachádzate sa na 6. poschodii bloku A"
+    },
+    {
+      "ID": "73",
+      "caption": "Nachádzate sa na 6. poschodii bloku A"
+    },
+    {
+      "ID": "74",
+      "caption": "Nachádzate sa na 7. poschodii bloku A"
+    },
+    {
+      "ID": "75",
+      "caption": "Nachádzate sa na 8. poschodii bloku A"
+    }
+  ]
+}
