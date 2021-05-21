@@ -1,5 +1,6 @@
 /**
-*
+*Autocomplete engine for better search. Administrator can fill array grapfPlaces[]
+ * with names of the places user can see.
 **/
 
 let graphPlaces = ["Hlavný Vchod", "Knižnica","Vrátnica E", "Podateľňa", "Jedáleň", "Bufet B", "Vrátnica A","Blok A"
