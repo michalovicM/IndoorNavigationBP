@@ -1,5 +1,5 @@
 /**
-*Autocomplete engine for better search. Administrator can fill array grapfPlaces[]
+*  Autocomplete engine for better search. Administrator can fill array grapfPlaces[]
  * with names of the places user can see.
 **/
 
@@ -37,7 +37,7 @@ function autocomplete(inp, arr) {
         if (e.keyCode === 40) {
             currentFocus++;
             addActiveClass(x);
-        } else if (e.keyCode === 38) { //up
+        } else if (e.keyCode === 38) {
             currentFocus--;
             addActiveClass(x);
         } else if (e.keyCode === 13) {
