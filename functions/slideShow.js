@@ -133,18 +133,18 @@ function showPath(move){
                 xFinish
                     .size(a+15, b+15)
                     .line(0, 15, 15, 0).move(finalSVGArray[i].x-7, finalSVGArray[i].y-7)
-                    .stroke({ color: '#f06', width: 5, linecap: 'round' })
+                    .stroke({ color: 'red', width: 5, linecap: 'round' })
                 xFinish
                     .size(a+15,b+15)
                     .line(0, -15, 15, 0).move(finalSVGArray[i].x-7, finalSVGArray[i].y-7)
-                    .stroke({ color: '#f06', width: 5, linecap: 'round' })
+                    .stroke({ color: 'red', width: 5, linecap: 'round' })
                 if(finalSVGArray[0].place === finalSVGArray[finalSVGArray.length-1].place)
                     break;
             }
             if(finalSVGArray[i].place === finalSVGArray[0].place){
                 circle
                     .size(a, b)
-                    .circle(15).fill('#f06').move(finalSVGArray[i].x-8, finalSVGArray[i].y-8)
+                    .circle(15).fill('red').move(finalSVGArray[i].x-8, finalSVGArray[i].y-8)
             }
             if(finalSVGArray[i+1].ID !== currentStartID){break;}
             path

@@ -14,9 +14,6 @@ function getPath(){
     xFinish.clear()
     $('path').remove();
 
-    console.log(mySource);
-    console.log(myTarget);
-
     event.preventDefault();
     $.ajax({
         url: "http://localhost:3000",
@@ -26,6 +23,7 @@ function getPath(){
             finalSVGArray.length = 0;
             document.getElementById("mySource").className = document.getElementById("mySource").className.replace("error", "");
             document.getElementById("myTarget").className = document.getElementById("myTarget").className.replace("error", "");
+            document.getElementById("textArea").style.visibility = "visible";
             if(result === "invalidSource"){
                 invalidInput();
                 document.getElementById("caption").innerHTML = "";
