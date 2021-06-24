@@ -14,6 +14,9 @@ function getPath(){
     xFinish.clear()
     $('path').remove();
 
+    console.log(mySource);
+    console.log(myTarget);
+
     event.preventDefault();
     $.ajax({
         url: "http://localhost:3000",

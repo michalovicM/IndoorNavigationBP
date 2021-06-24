@@ -4,7 +4,10 @@
 **/
 
 let graphPlaces = ["Hlavný Vchod", "Knižnica","Vrátnica E", "Podateľňa", "Jedáleň", "Bufet B", "Vrátnica A","Blok A"
-    ,"Blok B","Blok C","Blok D","Blok E"];
+    ,"Blok B","Blok C","Blok D","Blok E","Vrátnica C","Klub B","Šatne","Spolok absolventov a priateľov FEI"
+    ,"Výpočtové stredisko","Mediagraf","ANV","Accenture","ANV Office","CPU","SOSA","Národné centrum robotiky"
+    , "OMS","Telocvične", "Plaváreň", "BEST", "Klub Študentov", "Študentský parlament", "Šíp", "Jedáleň Delikanti"
+    , "Vchod E", "Študovňa","Pedagogické oddelenie","Dekanát","Inventium",];
 
 function autocomplete(inp, arr) {
     let currentFocus;
