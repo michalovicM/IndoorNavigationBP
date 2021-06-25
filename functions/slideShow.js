@@ -141,7 +141,8 @@ function showPath(move){
                 if(finalSVGArray[0].place === finalSVGArray[finalSVGArray.length-1].place)
                     break;
             }
-            if(finalSVGArray[i].place === finalSVGArray[0].place){
+            if(finalSVGArray[i].place === finalSVGArray[0].place ||
+                (finalSVGArray[i-1].ID !==currentStartID && finalSVGArray[i+1].ID !== currentStartID)){
                 circle
                     .size(a, b)
                     .circle(15).fill('red').move(finalSVGArray[i].x-8, finalSVGArray[i].y-8)
