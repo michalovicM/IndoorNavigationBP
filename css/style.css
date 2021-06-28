@@ -7,14 +7,6 @@
     margin: 40px auto 50px auto;
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-
 /* Hide the images by default */
 .mySlides {
     display: none;
@@ -62,6 +54,10 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
+    .slideshow-container {
+        max-width: 800px;
+    }
+
     #textArea{
         margin: -30px auto 40px 350px;
         border: 4px double red !important;
@@ -72,12 +68,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-left: 50% !important;
     }
 
-    .prev, .next {
-        top: 50%;
-        margin-top: -32px;
-    }
-    .next{
+    .next, .nextLabel {
+        right: 0;
         margin-right: -30%;
+        border-radius: 3px 0 0 3px;
     }
 }
 
