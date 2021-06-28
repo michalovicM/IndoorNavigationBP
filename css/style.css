@@ -5,7 +5,12 @@
     max-width: 1200px;
     margin: 40px auto 50px auto;
 }
-
+@media (min-width: 320px) and (max-width: 480px) {
+    .slideshow-container {
+        width: 480px !important;
+        margin: 0 auto 0 auto !important;
+    }
+}
 
 /* Hide the images by default */
 .mySlides {
@@ -48,6 +53,7 @@
     margin: -30px 350px 40px 350px;
     border: 4px double red !important;
 }
+
 .text {
     color: black;
     font-size: 18px;
