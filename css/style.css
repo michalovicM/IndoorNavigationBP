@@ -1,10 +1,19 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
+
 .slideshow-container {
     max-width: 1200px;
     margin: 40px auto 50px auto;
 }
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
 
 /* Hide the images by default */
 .mySlides {
@@ -46,7 +55,32 @@
 #textArea{
     margin: -30px 350px 40px 350px;
     border: 4px double red !important;
+
 }
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #textArea{
+        margin: -30px auto 40px 350px;
+        border: 4px double red !important;
+    }
+
+    .inputs{
+        margin-right: auto;
+        margin-left: 50% !important;
+    }
+
+    .prev, .next {
+        top: 50%;
+        margin-top: -32px;
+    }
+    .next{
+        margin-right: -30%;
+    }
+}
+
 
 .text {
     color: black;
